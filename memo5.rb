@@ -8,7 +8,7 @@ if memo_type == 1
     
     puts "拡張子を除いたファイルを入力してください。"
     
-    file_name = gets.to_s
+    file_name = gets.chomp 
     
     puts "メモしたい内容を記入してください"
     puts  "終了後、Ctrl + D　を押します。"
